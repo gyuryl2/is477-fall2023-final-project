@@ -1,11 +1,13 @@
 {
-  "title": "Summary Statistics on Iris Plant Class"
-  "description": "The project aims to analyze and summarize key statistics for the Iris plant class dataset. The dataset contains information about various attributes of three different species of Iris plants: Iris Setosa, Iris Versicolour, and Iris Virginica. The attributes include sepal length, sepal width, petal length, and petal width, all measured in centimeters."
+  "title": "Summary Statistics on Iris Plant Class",
+  "description": "The project aims to analyze and summarize key statistics for the Iris plant class dataset. The dataset contains information about various attributes of three different species of Iris plants: Iris Setosa, Iris Versicolour, and Iris Virginica. The attributes include sepal length, sepal width, petal length, and petal width, all measured in centimeters.",
   "creators": [
     {
-      "name": "Lee, Gyury"
+      "name": "Lee, Gyury",
       "name": "Sorkin, Josh"
     }
-  ]
-  "license": "MIT License"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
 }
