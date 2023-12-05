@@ -20,12 +20,13 @@
       "scheme": "doi",
       "identifier": "https://github.com/gyuryl2/is477-fall2023-final-project/releases/tag/release-4",
       "relation": "isSupplementTo",
-      "resource_type": "Software"
+      "resource_type": "software"
     },
     {
       "scheme": "url",
       "identifier": "10.5281/zenodo.10268943",
       "relation": "cites",
-      "resource_type": "Dataset"
+      "resource_type": "dataset"
     }
+   ]
 }
