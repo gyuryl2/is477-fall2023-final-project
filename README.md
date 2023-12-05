@@ -2,7 +2,7 @@
 A reproducible analysis based on IS 477 class materials
 
 ## Overview
-The purpose of the repository is to reproduce a a subset of results from the Iris data set. The Iris dataset includes information on 3 classes of the Iris flower. Each of the 3 classes has 50 instances. Each of the instances contains 4 data points on the flower that was collected using real flowers. These data points are the flower's petal length, petal width, sepal length, and sepal width. Using this information, the goal is to be able to predict the classification of Iris using the data points on the flower. Wihtin our project, we analyzed each of the three classes of Iris' and recorded key summary statistics. Theses summary statistics display the min, max, standard deviation, first quartile, third quartile, and mean of each of the 4 data points. 
+The purpose of the repository is to reproduce a subset of results from the Iris data set. The Iris dataset includes information on 3 classes of the Iris flower. Each of the 3 classes has 50 instances. Each of the instances contains 4 data points on the flower that was collected using real flowers. These data points are the flower's petal length, petal width, sepal length, and sepal width. Using this information, the goal is to be able to predict the classification of Iris using the data points on the flower. Wihtin our project, we analyzed each of the three classes of Iris' and recorded key summary statistics. Theses summary statistics display the min, max, standard deviation, first quartile, third quartile, and mean of each of the 4 data points. 
 
 ## Contributions
 Gyury Lee and Josh Sorkin both worked on all sections of the projects together. We collaborated on each part of the project to achieve the end result. 
@@ -18,18 +18,22 @@ First, clone this repository
 
 *  Create a virtual environment (.venv)
 
-* Install the required python packages 
-    pip install -r requirements.txt
-    view the environment log for details regarding software used.
+* Install the required python packages using command
+    ```pip install -r requirements.txt```
+    
+* Please view the environment log for details regarding software used.
 
-Run the Script: prepare_data.py
+Run the Script: prepare_data.py using command
+```snakemake --core 1 prepare```
 Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison.
 
-Run the Script: profile.py
+Run the Script: profile.py using command
+```snakemake --core 1 profile```
 Output: Reads the dataset into a dataframe and writes the profiling report to profiling/report.html.
 
-Run the Script: analysis.py
-Output: Summary statisitcs grouped by each of the three flowers including information on petal width, petal length, sepal width, and sepal length.
+Run the Script: analysis.py using command
+```snakemake --core 1 analyze```
+Output: Summary statisitcs grouped by each of the three flowers including information on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory,
 
 
 ## License
