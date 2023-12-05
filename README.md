@@ -62,5 +62,7 @@ Fisher,R. A.. (1988). Iris. UCI Machine Learning Repository. https://doi.org/10.
   note         = {{DOI}: https://doi.org/10.24432/C56C76}
 }
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10269248.svg)](https://doi.org/10.5281/zenodo.10269248)
+
 
 
