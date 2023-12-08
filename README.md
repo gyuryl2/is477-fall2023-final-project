@@ -41,7 +41,7 @@ We haven chosen to use the MIT software license.
 
 The MIT software license is a permissve free and open source license(FOSS). This license provides anyone with the ability to use the software without any restrictions. However, the copyright notice and permission notice are required to be included in all copies or substaintial portions of the software. 
 
-We decided to use the MIT license because it has ver few restrictions on future users of the software. Furthermore, this license is one of the easisiet to apply and adminisiter. Despite the lack of requirements, the MIT license still ensures that the origina author is acredited in future distributions of the work.
+We decided to use the MIT license because it has very few restrictions on future users of the software. Furthermore, this license is one of the easiest to apply and administer. Despite the lack of requirements, the MIT license still ensures that the original author is acredited in future distributions of the work.
 
 ## References and Citations
 
