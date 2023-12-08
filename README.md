@@ -30,13 +30,14 @@ Output: Downloads and extracts all data for the Iris dataset from archive.ics.ed
 
 ## License
 
-We have chosen to use the Creative Commons Attribution 4.0 (CC-BY-4.0)
+We have chosen to use the Creative Commons Attribution 4.0 (CC-BY-4.0).
 
 The Creative Commons Attribution 4.0 (CC-BY-4.0) has the Domain Content, Data. Requires attribution and does not require share-alike.
 
 We have chosen to implement the Creative Commons Attribution 4.0 (CC-BY-4.0) because this data license allows for the use of the datasets for any purpose as long as appropriate credit is provided. This will not limit users from applying and adapting the data in any way which they choose while still ensuring that the original author of the data set is acredited.
 
-We haven chosen to use the MIT software license
+
+We haven chosen to use the MIT software license.
 
 The MIT software license is a permissve free and open source license(FOSS). This license provides anyone with the ability to use the software without any restrictions. However, the copyright notice and permission notice are required to be included in all copies or substaintial portions of the software. 
 
