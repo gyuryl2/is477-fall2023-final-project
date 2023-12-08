@@ -16,6 +16,18 @@ The collaborative efforts of Gyury Lee and Josh Sorkin are integral to this proj
 ## Analysis
 The analysis section of the project takes into account each of the three types of Iris flowers as the results are organized by flower type. The statistics calculated include the mean, minimum, maximum, and standard deviation for the sepal length, sepal width, petal length and petal width of each flower. The information also includes the interquartile ranges for each of statistics. 
 
+### Summary Statistics for Iris-setosa:
+
+For sepal length, the mean is 5.006 units, with a standard deviation of 0.35249, showcasing a relatively consistent size. The petal length averages 1.464 units, demonstrating a compact size, with a standard deviation of 0.173511. Sepal width has a mean of 3.418 units and a standard deviation of 0.381024, indicating moderate variability. The petal width, with a mean of 0.244 units and a standard deviation of 0.10721, is notably smaller in comparison. These statistics reveal the distinct characteristics of Iris-setosa, emphasizing its compact size and limited variability across the measured attributes.
+
+### Summary Statistics for Iris-versicolor:
+
+In the case of Iris-versicolor, the summary statistics highlight a larger size and increased variability compared to Iris-setosa. With a mean sepal length of 5.936 units and a standard deviation of 0.516171, Iris-versicolor exhibits greater variation in sepal length. The mean petal length is 4.260 units, with a standard deviation of 0.469911, showcasing a larger and more varied petal size. Sepal width and petal width also display increased means (2.770 and 1.326 units, respectively) and standard deviations (0.313798 and 0.197753, respectively). These statistics underscore the larger and more diverse morphological characteristics of Iris-versicolor.
+
+### Summary Statistics for Iris-virginica:
+
+The summary statistics for Iris-virginica reveal a distinct set of characteristics, differentiating it from both Iris-setosa and Iris-versicolor. Iris-virginica has the largest mean sepal length (6.588 units) and petal length (5.552 units), indicating a larger overall size. The standard deviations for sepal length (0.63588) and petal length (0.551895) are comparatively higher, suggesting increased variability. Sepal width and petal width, with means of 2.974 and 2.026 units, respectively, also display larger sizes compared to the other two classes. These statistics portray Iris-virginica as the largest and most variable among the three Iris flower classes, with distinct morphological characteristics setting it apart.
+
 ## Workflow
 ![DAG of Iris Analysis Workflow](workflow.png)
 
