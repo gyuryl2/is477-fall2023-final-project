@@ -23,29 +23,28 @@ First, clone this repository
 
 *  Create a virtual environment (.venv)
 
-* Install the required python packages using command
+* Install the required Python packages using the command
     ```pip install -r requirements.txt```
     
-* Please view the environment log for details regarding software used.
+* Please view the environment log for details regarding the software used.
 
-Run the Scripts using command : prepare_data.py using command
+Run the Scripts using the command: prepare_data.py using the command
 ```snakemake --core 1 run_all```
-Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison. Reads the dataset into a dataframe and writes the profiling report to profiling/report.html. Summary statisitcs grouped by each of the three flowers including data on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory.
+Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks the integrity of data using SHA-256 hash comparison. Reads the dataset into a dataframe and writes the profiling report to profiling/report.html. Summary statistics grouped by each of the three flowers including data on petal width, petal length, sepal width, and sepal length inside of the 'results' subdirectory.
+
 
 ## License
 
 We have chosen to use the Creative Commons Attribution 4.0 (CC-BY-4.0).
 
 The Creative Commons Attribution 4.0 (CC-BY-4.0) has the Domain Content, Data. Requires attribution and does not require share-alike.
+We have chosen to implement the Creative Commons Attribution 4.0 (CC-BY-4.0) because this data license allows for the use of the datasets for any purpose as long as appropriate credit is provided. This will not limit users from applying and adapting the data in any way they choose while still ensuring that the original author of the data set is accredited.
 
-We have chosen to implement the Creative Commons Attribution 4.0 (CC-BY-4.0) because this data license allows for the use of the datasets for any purpose as long as appropriate credit is provided. This will not limit users from applying and adapting the data in any way which they choose while still ensuring that the original author of the data set is acredited.
+We have chosen to use the MIT software license.
 
+The MIT software license is a permissive free and open-source license(FOSS). This license provides anyone with the ability to use the software without any restrictions. However, the copyright notice and permission notice are required to be included in all copies or substantial portions of the software.
 
-We haven chosen to use the MIT software license.
-
-The MIT software license is a permissve free and open source license(FOSS). This license provides anyone with the ability to use the software without any restrictions. However, the copyright notice and permission notice are required to be included in all copies or substaintial portions of the software. 
-
-We decided to use the MIT license because it has very few restrictions on future users of the software. Furthermore, this license is one of the easiest to apply and administer. Despite the lack of requirements, the MIT license still ensures that the original author is acredited in future distributions of the work.
+We decided to use the MIT license because it has very few restrictions on future users of the software. Furthermore, this license is one of the easiest to apply and administer. Despite the lack of requirements, the MIT license still ensures that the original author is accredited in future distributions of the work.
 
 ## References and Citations
 
