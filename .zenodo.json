@@ -18,7 +18,7 @@
   "related_identifiers": [
     {
       "scheme": "doi",
-      "identifier": "https://github.com/gyuryl2/is477-fall2023-final-project/releases/tag/release-7",
+      "identifier": "https://github.com/gyuryl2/is477-fall2023-final-project/releases/tag/v1",
       "relation": "isSupplementTo",
       "resource_type": "software"
     },
