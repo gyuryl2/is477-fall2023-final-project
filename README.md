@@ -10,7 +10,7 @@ Gyury Lee and Josh Sorkin both worked on all sections of the projects together. 
 ## Analysis
 The analysis section of the project takes into account each of the three types of Iris flowers. Then, the information about each flower is used to create summary statistics. The statistics calculated incliude the mean, min, max, and standard deviation for the sepal length, sepal width, petal length and petal width of each flower. The information also includes the 25% and 75% for each of statistics. 
 ## Workflow
-![DAG of Iris Analysis Workflow](image.png)
+![DAG of Iris Analysis Workflow](workflow.png)
 
 ## Reproducing
 
