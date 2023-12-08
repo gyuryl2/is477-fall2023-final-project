@@ -48,11 +48,3 @@ We decided to use the MIT license because it has very few restrictions on future
 ## References and Citations
 
 Fisher,R. A.. (1988). Iris. UCI Machine Learning Repository. https://doi.org/10.24432/C56C76.
-
-@misc{misc_iris_53,
-  author       = {Fisher,R. A.},
-  title        = {{Iris}},
-  year         = {1988},
-  howpublished = {UCI Machine Learning Repository},
-  note         = {{DOI}: https://doi.org/10.24432/C56C76}
-}
