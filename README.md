@@ -2,7 +2,7 @@
 A reproducible analysis based on IS 477 class materials
 
 ## Overview
-This repository serves the purpose of conducting a reproducible analysis on a subset of resultsderived from the Iris dataset. The Iris dataset includes information on 3 classes of the Iris flower where each of the 3 classes has 50 instances. Each instance contains 4 data points on the flower that was collected using real flowers - the flower's petal length, petal width, sepal length, and sepal width. Using this information, the goal is to be able to predict the classification of Iris using the data points on the flower. Wihtin our project, we analyzed each of the three classes of Iris' and recorded key summary statistics. Theses summary statistics display the minimum, maximum, standard deviation, first quartile, third quartile, and mean of each of the 4 data points. 
+This repository serves the purpose of conducting a reproducible analysis on a subset of results derived from the Iris dataset. The Iris dataset includes information on 3 classes of the Iris flower where each of the 3 classes has 50 instances. Each instance contains 4 data points on the flower that was collected using real flowers - the flower's petal length, petal width, sepal length, and sepal width. Using this information, the goal is to be able to predict the classification of Iris using the data points on the flower. Wihtin our project, we analyzed each of the three classes of Iris' and recorded key summary statistics. Theses summary statistics display the minimum, maximum, standard deviation, first quartile, third quartile, and mean of each of the 4 data points. 
 
 ## Contributions
 The collaborative efforts of Gyury Lee and Josh Sorkin are integral to this project. Joint contributions span across all sections, demonstrating a cohesive partnership in achieving the final outcomes.
@@ -26,7 +26,7 @@ First, clone this repository
 
 Run the Scripts using command : prepare_data.py using command
 ```snakemake --core 1 run_all```
-Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison. Reads the dataset into a dataframe and writes the profiling report to profiling/report.html. Summary statisitcs grouped by each of the three flowers including information on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory.
+Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison. Reads the dataset into a dataframe and writes the profiling report to profiling/report.html. Summary statisitcs grouped by each of the three flowers including data on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory.
 
 ## License
 
