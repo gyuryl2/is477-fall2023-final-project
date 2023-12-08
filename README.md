@@ -1,6 +1,8 @@
 # is477-fall2023-final-project
 A reproducible analysis based on IS 477 class materials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10252061.svg)](https://doi.org/10.5281/zenodo.10252061)
+
 ## Overview
 This repository serves the purpose of conducting a reproducible analysis on a subset of results derived from the Iris dataset. The Iris dataset includes information on 3 classes of the Iris flower where each of the 3 classes has 50 instances. Each instance contains 4 data points on the flower that was collected using real flowers - the flower's petal length, petal width, sepal length, and sepal width. Using this information, the goal is to be able to predict the classification of Iris using the data points on the flower. Wihtin our project, we analyzed each of the three classes of Iris' and recorded key summary statistics. Theses summary statistics display the minimum, maximum, standard deviation, first quartile, third quartile, and mean of each of the 4 data points. 
 
@@ -54,8 +56,3 @@ Fisher,R. A.. (1988). Iris. UCI Machine Learning Repository. https://doi.org/10.
   howpublished = {UCI Machine Learning Repository},
   note         = {{DOI}: https://doi.org/10.24432/C56C76}
 }
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10252061.svg)](https://doi.org/10.5281/zenodo.10252061)
-
-
-
