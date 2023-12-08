@@ -11,7 +11,8 @@ rule prepare:
         "data/iris/bezdekIris.data",
         "data/iris/Index",
         "data/iris/iris.data",
-        "data/iris/iris.names"
+        "data/iris/iris.names",
+        "data/iris/iris.zip"
     shell:
         "python scripts/prepare_data.py"
 
