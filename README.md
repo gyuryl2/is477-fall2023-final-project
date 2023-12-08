@@ -23,18 +23,9 @@ First, clone this repository
     
 * Please view the environment log for details regarding software used.
 
-Run the Script: prepare_data.py using command
-```snakemake --core 1 prepare```
-Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison.
-
-Run the Script: profile.py using command
-```snakemake --core 1 profile```
-Output: Reads the dataset into a dataframe and writes the profiling report to profiling/report.html.
-
-Run the Script: analysis.py using command
-```snakemake --core 1 analyze```
-Output: Summary statisitcs grouped by each of the three flowers including information on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory,
-
+Run the Scripts using command : prepare_data.py using command
+```snakemake --core 1 run_all```
+Output: Downloads and extracts all data for the Iris dataset from archive.ics.edu and checks integrity of data using SHA-256 hash comparison. Reads the dataset into a dataframe and writes the profiling report to profiling/report.html. Summary statisitcs grouped by each of the three flowers including information on petal width, petal length, sepal width, and sepal length inside of 'results' subdirectory.
 
 ## License
 
