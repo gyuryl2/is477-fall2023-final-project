@@ -14,7 +14,7 @@ The summary statistics reveal distinctive morphological characteristics within e
 The collaborative efforts of Gyury Lee and Josh Sorkin are integral to this project. Joint contributions span across all sections, demonstrating a cohesive partnership in achieving the final outcomes.
 
 ## Analysis
-The analysis section of the project takes into account each of the three types of Iris flowers as the results are organized by flower type. The statistics calculated include the mean, minimum, maximum, and standard deviation for the sepal length, sepal width, petal length and petal width of each flower. The information also includes the interquartile ranges for each of statistics. 
+The analysis section of the project takes into account each of the three types of Iris flowers as the results are organized by flower type. The statistics calculated include the mean, minimum, maximum, and standard deviation for the sepal length, sepal width, petal length, and petal width of each flower. The information also includes the interquartile ranges for each of the statistics. 
 
 ### Summary Statistics for Iris-setosa:
 
